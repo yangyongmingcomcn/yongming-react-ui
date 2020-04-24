@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Fragment } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -9,13 +9,31 @@ import {
 import "./index.less";
 
 function Index() {
-  useEffect(() => {
-    console.log(`userEffect=>Index`);
-    return () => {
-      console.log(`userEffect=>Return Index`);
-    };
-  }, []);
-  return <h2>yangyongming.com</h2>;
+  return (
+    <Fragment>
+      <content className="content-container">
+        <img src="./assets/index.jpg" alt="" />
+        <h1 className="content-title">Yongming UI</h1>
+        <p className="content-descrption">用react造轮子</p>
+        <p className="content-button">
+          <NavLink exact to="/list">Get Started→</NavLink>
+        </p>
+        <Switch>
+          <Route path="/list" component={List} />
+        </Switch>
+      </content>
+      <footer className="footer-container">
+        <div className="footer-card">
+          <h2>注意事项</h2>
+          <p>Yongming UI 只是一个玩具项目, 不要用于生产环境</p>
+        </div>
+        <div className="footer-card">
+          <h2>我的目的</h2>
+          <p>有人总说不要重复造轮子, 因为自己几乎不会造出一个比业界共用的轮子还好的轮子, 造再多也是白费力. 这的确不错. 但我的目的只是为了提高</p>
+        </div>
+      </footer>
+    </Fragment>
+  );
 }
 
 function List() {
