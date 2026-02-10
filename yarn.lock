@@ -1557,12 +1557,12 @@
     tsutils "^3.17.1"
 
 "@typescript-eslint/experimental-utils@2.29.0":
-  version "2.28.1-alpha.4"
-  resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/@typescript-eslint/experimental-utils/-/experimental-utils-2.28.1-alpha.4.tgz#555c3b5e791b743ccc6da612e36104696fb47dfe"
-  integrity sha512-cXDJ5LU6piV0ua29iDj0lxTFrNFd6EPuwm0EGP/t+LM7PWp4TTNMkqNACmqODYLD4XFjrSGsdoiQFHRHZiRPOg==
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.29.0.tgz#3cb8060de9265ba131625a96bbfec31ba6d4a0fe"
+  integrity sha512-H/6VJr6eWYstyqjWXBP2Nn1hQJyvJoFdDtsHxGiD+lEP7piGnGpb/ZQd+z1ZSB1F7dN+WsxUDh8+S4LwI+f3jw==
   dependencies:
     "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "2.28.1-alpha.4+b01f5e77"
+    "@typescript-eslint/typescript-estree" "2.29.0"
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
@@ -1576,10 +1576,10 @@
     "@typescript-eslint/typescript-estree" "2.29.0"
     eslint-visitor-keys "^1.1.0"
 
-"@typescript-eslint/typescript-estree@2.28.1-alpha.4+b01f5e77", "@typescript-eslint/typescript-estree@2.29.0":
-  version "2.28.1-alpha.4"
-  resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/@typescript-eslint/typescript-estree/-/typescript-estree-2.28.1-alpha.4.tgz#b9090006086cef9cf323ffe8f8e52b5cc8c1341a"
-  integrity sha512-nqlNVZVuiYV367tNbEHt7VpEEgHi/xkKCAqyRMRY0JzNGoxrMe935uH8qIjD4wEaf+szZaSO4NxkbQn7mJ2tGA==
+"@typescript-eslint/typescript-estree@2.29.0":
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.29.0.tgz#1be6612bb02fc37ac9f466521c1459a4744e8d3a"
+  integrity sha512-3YGbtnWy4az16Egy5Fj5CckkVlpIh0MADtAQza+jiMADRSKkjdpzZp/5WuvwK/Qib3Z0HtzrDFeWanS99dNhnA==
   dependencies:
     debug "^4.1.1"
     eslint-visitor-keys "^1.1.0"
@@ -10203,9 +10203,9 @@ url-loader@2.3.0:
     schema-utils "^2.5.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "http://nexus.saas.hand-china.com/content/groups/srm-npm-group/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
